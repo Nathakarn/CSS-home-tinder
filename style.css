@@ -1,0 +1,79 @@
+body {
+    background-image: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.918),  transparent),
+    url(./img/bg.webp); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+   }
+   nav{
+    width: 100%;
+    height: 100px;
+    
+   }
+
+  a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+  }
+  img{
+    display: flex;
+    
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 80px;
+  }
+  .nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .nav-button{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  button{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    padding: 8px;
+    padding-inline: 16px;
+  }
+  .content{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    /* padding: 120px 0;   */
+    padding: 20vh;
+  }
+
+  .text-content{
+    text-align: center;
+    font-size: 110px;
+    color: white;
+    margin: 10px 0;
+  }
+
+ .create-account {
+    background-image: linear-gradient(to right, #ff0479, #f51212);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 26px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
